@@ -29,3 +29,27 @@ total_factura = calcular_total_factura(cantidad_sin_iva, porcentaje_iva) #Esta l
 print(f"El total de la factura incluyendo IVA, es: {total_factura:.2f}") #Esta linea muestra el resultado 
 ![image](https://github.com/user-attachments/assets/3df5e597-7138-47e9-b894-cc528347ed49)
 ![image](https://github.com/user-attachments/assets/b2f7868b-94bd-47ce-a2e4-8549891da1a6)
+print ("Cristian David Salas De La O 3-W") #Esta linea define el nombre del programador 
+import math #Esta linea importa mas funciones de suma
+
+def area_circulo(radio): #Esta linea calcula el area del circulo en la funcion 
+
+    return math.pi * (radio ** 2) #Esta linea conclute la funcion
+
+def volumen_cilindro(radio, altura): #Esta linea define la funcio 
+
+    area_base = area_circulo(radio) #Esta linea calcula el area 
+    return area_base * altura #Esta linea concluye la funcion 
+
+radio = float(input("Ingrese el radio del circulo: ")) #Esta linea solicita el radio 
+altura = float(input("Ingrese la altura del cilindro: "))#Esta linea solicita la altura 
+
+area = area_circulo(radio) #Esta linea saca el area
+print(f"El area del circulo es: {area:.2f}") #Esta linea muestra el area
+
+volumen = volumen_cilindro(radio, altura) #Esta linea saca el volumen
+print(f"El volumen del cilindro es: {volumen:.2f}") #Esta linea nuestra el volumen
+![image](https://github.com/user-attachments/assets/cf0cf642-e0bf-4789-b5f5-0757c3bd0151)
+![image](https://github.com/user-attachments/assets/046bd085-eb1b-468d-8d0c-55741825d177)
+
+
