@@ -51,5 +51,20 @@ volumen = volumen_cilindro(radio, altura) #Esta linea saca el volumen
 print(f"El volumen del cilindro es: {volumen:.2f}") #Esta linea nuestra el volumen
 ![image](https://github.com/user-attachments/assets/cf0cf642-e0bf-4789-b5f5-0757c3bd0151)
 ![image](https://github.com/user-attachments/assets/046bd085-eb1b-468d-8d0c-55741825d177)
+print ("Cristian David Salas De La O 3-W") #Esta linea define el nombre del programador
+def es_email_valido(email): #Esta linea define la funcion 
+
+    return '@' in email #Esta linea concluye la funcion 
+
+email = input("Ingrese una direccion de email: ") #Esta linea solicita el email
+
+if es_email_valido(email): #Esta linea sala el proceso de el resultado
+    print("La direccion de email es valida.") #Esta linea muestra que se cumple la peticion 
+else: #Esta linea  define que hacer si no se cumple la condiccion
+    print("La direccion de email no es valida.") #Esta linea  avisa que no es correcto el email
+![image](https://github.com/user-attachments/assets/481d2c86-f50e-46fe-a36f-dc387f52ef3a)
+![image](https://github.com/user-attachments/assets/8126aee5-c046-4d4d-b70f-7b077e1786a2)
+
+
 
 
