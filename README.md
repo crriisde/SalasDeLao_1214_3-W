@@ -92,6 +92,44 @@ resultado = mayor_de_tres() #Esta linea define el resultadoo
 print("El mayor de los tres numeros es:", resultado) #Esta linea muestra el resultado 
 ![image](https://github.com/user-attachments/assets/ec9d16a8-2af7-48bc-be53-128681d905a5)
 ![image](https://github.com/user-attachments/assets/99e1e05e-d5d3-42d2-9bb7-5d34469e6ffc)
+def sum(numbers): #esta linea define la funcion 
+    total = 0 #esta linea define el total 
+    for number in numbers: #esta linea pone el valor de numeros 
+        total += number #esta linea define el total 
+    return total #esta linea concluye parte de la funcion 
+
+def multip(numbers): #esta linea define la funcion 
+    product = 1#esta linea define el producto 
+    for number in numbers: #esta linea pone el valor de los numeros 
+        product *= number #esta linea define el producto 
+    return product #esta linea concluye parte de la funcion 
+
+input_values = input("Ingrese los numeros separados por comas: ") #esta linea solicita los numeros
+numbers = [int(x) for x in input_values.split(',')] #esta linea procesa los valores
+
+print("La suma es:", sum(numbers)) #esta linea muestra el resultado 
+print("El producto es:", multip(numbers)) #esta linea muestra el resultado 
+![image](https://github.com/user-attachments/assets/33867b51-5293-43ed-a917-ca5ffc65adaf)
+![image](https://github.com/user-attachments/assets/de762201-3536-4acb-b15a-e51e422b3e32)
+
+print ("Cristian David Salas De La O 3-W") #Esta linea define el nombre del programdor 
+def es_vocal(caracter): #Esta linea define la funcion 
+
+    vocales = 'aeiouAEIOU' #Esta linea define la vocales
+    return caracter in vocales #Esta linea concluye la funcion 
+
+caracter = input("Ingrese un carácter: ") #Esta linea solicita el caracter
+
+if len(caracter) == 1: #Esta linea define el caracter
+
+    if es_vocal(caracter): #Esta linea define el if de la vocal
+        print("Es una vocal.") #Esta linea muestra que es una vocal
+    else: #Esta linea dice que hacer si no se cumpla las peticiones 
+        print("No es una vocal.") #Esta linea meustra que no es una vocal
+else: #Esta linea muestra que hacer si no se cumplen con las peticiones 
+    print("Por favor, ingrese solo un carácter.") #Esta linea muestra que no es solo un caracter
+![image](https://github.com/user-attachments/assets/5f8cb707-4c53-4967-87de-c0b647a48697)
+![image](https://github.com/user-attachments/assets/e74e73db-a2b6-4112-943e-a4d998543197)
 
 
 
