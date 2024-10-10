@@ -65,6 +65,21 @@ else: #Esta linea  define que hacer si no se cumple la condiccion
 ![image](https://github.com/user-attachments/assets/481d2c86-f50e-46fe-a36f-dc387f52ef3a)
 ![image](https://github.com/user-attachments/assets/8126aee5-c046-4d4d-b70f-7b077e1786a2)
 
+print ("Cristian David Salas De La O 3-W") #Esta linea define el nombre del programador 
+def ultima_palabra(s): #Esta linea define la funcion
+
+    palabras = s.strip().split() #Esta linea define como saber cuantas palabras teine 
+
+    if palabras: #Esta linea dice que hacer 
+        return len(palabras[-1]) #Esta linea concluye la efecucion
+    return 0 #Esta linea concluye la ejecucion
+
+texto = input("Ingresa un texto ") #Esta linea define el texto
+print("La longitud de la ultima palabra es:", ultima_palabra(texto)) #Esta linea dice el resultado
+
+![image](https://github.com/user-attachments/assets/d3fa79a0-f29a-4f56-b219-d36ecfcecfcd)
+
+![image](https://github.com/user-attachments/assets/e12ffb75-7372-46ce-9351-cdbd59fb00e5)
 
 
 
