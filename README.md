@@ -130,6 +130,28 @@ else: #Esta linea muestra que hacer si no se cumplen con las peticiones
     print("Por favor, ingrese solo un carácter.") #Esta linea muestra que no es solo un caracter
 ![image](https://github.com/user-attachments/assets/5f8cb707-4c53-4967-87de-c0b647a48697)
 ![image](https://github.com/user-attachments/assets/e74e73db-a2b6-4112-943e-a4d998543197)
+print ("Cristian David Salas De la o 3.W") #Esta linea define el nombre del programdor 
+import math  #Esta linea genera mas funciones matematicas
+
+def distancia_dirigida(punto1, punto2):  #Esta linea define la funcion 
+
+    x1, y1 = punto1  #Esta linea define la distacia del punto
+    x2, y2 = punto2  #Esta linea define la distancia del segundo punto 
+    return math.sqrt((x2 - x1) ** 2 + (y2 - y1) ** 2)  #Esta linea conclutye la funcion 
+
+x1 = float(input("Ingrese la coordenada x del primer punto: "))  #Esta linea solicita la ingrecio de la cordenada 
+y1 = float(input("Ingrese la coordenada y del primer punto: ")) #Esta linea solicita la ingrecio de la cordenada 
+x2 = float(input("Ingrese la coordenada x del segundo punto: ")) #Esta linea solicita la ingrecio de la cordenada 
+y2 = float(input("Ingrese la coordenada y del segundo punto: ")) #Esta linea solicita la ingrecio de la cordenada 
+
+punto1 = (x1, y1) #Esta linea define la cordenada del punto 1 
+punto2 = (x2, y2) #Esta linea define la cordeanada del putno 2
+
+distancia = distancia_dirigida(punto1, punto2) #Esta linea define la distancia 
+
+print(f"La distancia dirigida entre los puntos {punto1} y {punto2} es: {distancia:.2f}") #Esta linea muestra el resultado 
+![image](https://github.com/user-attachments/assets/63446942-5579-42b6-8faa-edac52d32397)
+![image](https://github.com/user-attachments/assets/3c590e39-50bb-4fc8-b5d0-ab733e4bc645)
 
 
 
