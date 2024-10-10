@@ -79,7 +79,20 @@ print("La longitud de la ultima palabra es:", ultima_palabra(texto)) #Esta linea
 
 ![image](https://github.com/user-attachments/assets/d3fa79a0-f29a-4f56-b219-d36ecfcecfcd)
 
+
 ![image](https://github.com/user-attachments/assets/e12ffb75-7372-46ce-9351-cdbd59fb00e5)
+print ("Cristian David Salas De La O 3-W") #Esta linea define el nombre del programador 
+def mayor_de_tres(): #Esta linea define la funcion 
+    num1 = float(input("Ingresa el primer numero: ")) #Esta linea solicita el primer numero 
+    num2 = float(input("Ingresa el segundo numero: "))#Esta linea solicita el segundo numero 
+    num3 = float(input("Ingresa el tercer numero: ")) #Esta linea solicita el tercer numero 
+    return max(num1, num2, num3) #Esta linea cocluye parte de la funcion 
+
+resultado = mayor_de_tres() #Esta linea define el resultadoo
+print("El mayor de los tres numeros es:", resultado) #Esta linea muestra el resultado 
+![image](https://github.com/user-attachments/assets/ec9d16a8-2af7-48bc-be53-128681d905a5)
+![image](https://github.com/user-attachments/assets/99e1e05e-d5d3-42d2-9bb7-5d34469e6ffc)
+
 
 
 
